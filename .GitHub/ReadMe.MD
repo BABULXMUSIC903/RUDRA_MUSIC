@@ -1,7 +1,7 @@
-<h1 align="center"><b>𝗤𝗨𝗘𝗘𝗡-𝗠𝗨𝗦𝗜𝗖 🎧</b></h1>
+<h1 align="center"><b>𝐑𝐔𝐃𝐑𝐀-𝗠𝗨𝗦𝗜𝗖 🎧</b></h1>
 
 <p align="center">
-  <img src="https://i.ibb.co/pvnJxnb2/x.jpg" width="500"/>
+  <img src="https://i.ibb.co/FLWvphWY/x.jpg" width="500"/>
 </p>
 
 <p align="center">
