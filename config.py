@@ -18,8 +18,8 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
-LOGGER_ID = int(getenv("LOGGER_ID", "0"))
-OWNER_ID = int(getenv("OWNER_ID", "7574330905"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003511538379"))
+OWNER_ID = int(getenv("OWNER_ID", "8527813742"))
 
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -29,7 +29,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NoxxOP/ShrutixMusic",
+    "https://github.com/BABULXMUSIC903/QUEEN_MUSIC",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -49,12 +49,12 @@ API_KEY = getenv(
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/ShrutiBots"
+    "https://t.me/BOSS_OF_BABUL_OH"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/ShrutiSupportChat"
+    "https://t.me/BOT_SUPPORT_01"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
@@ -94,24 +94,24 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://telegra.ph/file/5c8d3994b93174a57d7f3-608459ffaf02cf2a9b.jpg"
+    "https://i.ibb.co/cK0fPnqy/x.jpg"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/c8b09659c837cd9142601-f594bfd29076e79944.jpg"
+    "https://i.ibb.co/cK0fPnqy/x.jpg"
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+STATS_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
 
 
 def time_to_seconds(time):
