@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1003511538379"))
-OWNER_ID = int(getenv("OWNER_ID", "8527813742"))
+OWNER_ID = int(getenv("OWNER_ID", "8524477758"))
 
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -29,7 +29,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BABULXMUSIC903/QUEEN_MUSIC",
+    "https://github.com/BABULXMUSIC903/RUDRA_MUSIC",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -49,7 +49,7 @@ API_KEY = getenv(
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/BOSS_OF_BABUL_OH"
+    "https://t.me/STATUSDAIRY2"
 )
 
 SUPPORT_CHAT = getenv(
@@ -94,24 +94,24 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://i.ibb.co/cK0fPnqy/x.jpg"
+    "https://i.ibb.co/FLWvphWY/x.jpg"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://i.ibb.co/cK0fPnqy/x.jpg"
+    "https://i.ibb.co/FLWvphWY/x.jpg"
 )
 
-PLAYLIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-STATS_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-TELEGRAM_AUDIO_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-TELEGRAM_VIDEO_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-STREAM_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-SOUNCLOUD_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-YOUTUBE_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/cK0fPnqy/x.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+STATS_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
 
 
 def time_to_seconds(time):
