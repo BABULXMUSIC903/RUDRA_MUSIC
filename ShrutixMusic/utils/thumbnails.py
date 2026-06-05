@@ -109,10 +109,10 @@ async def get_thumb(videoid):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("AloneX/assets/font2.ttf", 45)
-        font2 = ImageFont.truetype("AloneX/assets/font2.ttf", 70)
-        arial = ImageFont.truetype("AloneX/assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("AloneX/assets/font.ttf", 30)
+        font = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 45)
+        font2 = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 70)
+        arial = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 30)
+        name_font = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
         draw.text((5, 5), f"AloneXMusic", fill="white", font=name_font)
