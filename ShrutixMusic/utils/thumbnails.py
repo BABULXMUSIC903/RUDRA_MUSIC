@@ -5,9 +5,9 @@ import aiofiles
 import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from unidecode import unidecode
-from youtubesearchpython.__future__ import VideosSearch
+from py_yt import VideosSearch
 
-from ShrutixMusic import app
+from ShrutixMusic import nand
 from config import YOUTUBE_IMG_URL
 
 
@@ -72,8 +72,8 @@ async def get_thumb(videoid):
         background = enhancer.enhance(0.5)
         draw = ImageDraw.Draw(background)
         arial = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 30)
-        font = ImageFont.truetype("ShrutixMusic/assets/font2.ttf", 30)
-        draw.text((1110, 8), unidecode(app.name), fill="white", font=arial)
+        font = ImageFont.truetype("ShrutixMusic/assets/font.ttf", 30)
+        draw.text((1110, 8), unidecode(nand.name), fill="white", font=arial)
         draw.text(
             (55, 560),
             f"{channel} | {views[:23]}",
@@ -87,13 +87,13 @@ async def get_thumb(videoid):
             font=font,
         )
         draw.line(
-            [(55, 660), (1220, 660)],
+            [(1220, 660), (1220, 660)],
             fill="white",
             width=5,
             joint="curve",
         )
         draw.ellipse(
-            [(918, 648), (942, 672)],
+            [(942, 648), (942, 672)],
             outline="white",
             fill="white",
             width=15,
